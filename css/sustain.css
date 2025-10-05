@@ -105,7 +105,7 @@ aside h3 {
     padding: .5rem;
     display: block;
     text-decoration: none;
-    margin-top: -1px;
+    margin-top: -1px; /* Had to include this to make the green heading for sidebar*/
 }
 /* Home Page Columns */
 #content-wrapper {
@@ -133,7 +133,7 @@ aside h2{
     order: 3;
   }
   #content-wrapper > aside {
-    order: -1;             
+    order: -1;              /* indentation */
     background-color: #ccc;
     margin-right: 1rem;
     padding: 1rem;      
